@@ -223,7 +223,7 @@ class HomeSpace extends StatelessWidget {
                               ),
                               Center(
                                 child: Text(
-                                  'Explore',
+                                  trnsdata[index].name,
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 24,
